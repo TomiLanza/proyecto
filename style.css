@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0%;
+    background-image: url(imagenes/one-piece-artwork_1920x1080_xtrafondos.com.jpg);
+    justify-content: center;
+}
+
+.logo{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    display: block; 
+}
+
+.boton {
+    display: block;
+    background-color: lightblue;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid lightcyan;
+    width: 200px;
+    height: 70px;
+    font-weight: bold;
+    font-style: oblique;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+.boton1 {
+    background-color: lightblue;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 20px ;
+    margin: 30px;
+    display: block;
+    border: solid lightcyan;
+    width: 155px;
+    height: 70px;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: oblique;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    top: 60px;
+}
+
+
+.boton:hover {
+    background-color: lightskyblue;
+}
+
+.boton1:hover {
+    background-color: lightskyblue;
+}
+
+a:link {
+    text-decoration: none;
+}
